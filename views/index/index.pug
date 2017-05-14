@@ -1,0 +1,14 @@
+extends ../layout
+
+block body
+	h2 Tell Us What You Love About New York!
+	form(action='/messages/', method='post')
+		.form-group
+			input.form-control(name='title', placeholder='Country of Origin', autofocus)
+		.form-group
+			textarea.form-control(name='body', placeholder='Your Favorite Sights in New York')
+		.form-group
+			input.btn.btn-success.btn-lg(type='submit', value='Submit')
+
+
+			

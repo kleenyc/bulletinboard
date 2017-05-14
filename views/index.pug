@@ -1,0 +1,9 @@
+extends layout
+
+block body
+	if post
+		h1 #{message.title} 
+		p= message.body
+	else
+		h2 Not Found
+		p That message post does not exist.

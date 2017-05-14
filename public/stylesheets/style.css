@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: navy;
+  background-image: url("http://www.nlc.org/sites/default/files/2016-10/new-york-city.jpg");
+   background-repeat: no-repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
